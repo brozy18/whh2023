@@ -22,7 +22,7 @@ function simulateTyping(code, index, callback) {
         codeDisplay.textContent += code[index];
         setTimeout(() => simulateTyping(code, index + 1, callback), 13); // Adjust the typing speed
     } else {
-        setTimeout(callback, 1000); // Adjust the delay between snippets
+        setTimeout(callback, 100); // Adjust the delay between snippets
     }
 }
 
