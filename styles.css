@@ -2,6 +2,8 @@ body {
     font-family: 'Courier New', monospace;
     margin: 0;
     overflow: hidden;
+    background-color: black; /* Change background color to black */
+    color: green; /* Change text color to green */
 }
 
 #code-display {
