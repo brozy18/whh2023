@@ -1,0 +1,10 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    overflow: hidden;
+}
+
+#code-display {
+    white-space: pre-wrap;
+    overflow: hidden;
+}
