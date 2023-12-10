@@ -20,7 +20,7 @@ const codeDisplay = document.getElementById('code-display');
 function simulateTyping(code, index, callback) {
     if (index < code.length) {
         codeDisplay.textContent += code[index];
-        setTimeout(() => simulateTyping(code, index + 1, callback), 50); // Adjust the typing speed
+        setTimeout(() => simulateTyping(code, index + 1, callback), 13); // Adjust the typing speed
     } else {
         setTimeout(callback, 1000); // Adjust the delay between snippets
     }
