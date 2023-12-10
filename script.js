@@ -2,6 +2,17 @@ const codeSnippets = [
     "function greet() {\n",
     "    console.log('Hello, world!');\n",
     "}\n",
+    "\n",
+    "for (let i = 0; i < 5; i++) {\n",
+    "    console.log('Line ' + i);\n",
+    "}\n",
+    "\n",
+    "function add(a, b) {\n",
+    "    return a + b;\n",
+    "}\n",
+    "\n",
+    "let result = add(3, 7);\n",
+    "console.log('Result:', result);\n",
 ];
 
 const codeDisplay = document.getElementById('code-display');
